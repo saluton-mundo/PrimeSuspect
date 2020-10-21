@@ -8,7 +8,7 @@ namespace NolanPrime
     {
         public List<int> Generate(int n)
         {
-            List<int> primes = new List<int>(1000000);
+            List<int> primes = new List<int>(n);
             primes.Add(2);      // 1 is not a prime
             int nextPrime = 3;  // 3 is the next possible prime
 
